@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+
+
+
+<groups>
+	<run>
+	<include name="ErrorHandling"></include>
+	</run>
+</groups>
+
+<listeners>
+	<listener class-name="Academy.TestComponents.Listeners"></listener>
+	<listener class-name="Academy.TestComponents.TestRetryAnalyzerListener"></listener>
+</listeners>
+
+<test thread-count="5" name="LoginPublishLogout">
+    <classes>
+      <class name="Academy.Tests.E2ETCPO2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="ErrorValidations">
+    <classes>
+      <class name="Academy.Tests.ErrorValidationsTCPO"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+</suite> <!-- Suite -->

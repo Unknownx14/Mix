@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.Toma.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test04(failed)">
+    <classes>
+      <class name="Academy.Toma.Logout">
+        <methods>
+          <include name="LogoutValidation" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.Toma.Logout -->
+    </classes>
+  </test> <!-- Test04(failed) -->
+  <test thread-count="5" parallel="tests" name="Test05(failed)">
+    <classes>
+      <class name="Academy.Toma.ThreeClasses">
+        <methods>
+          <include name="teardown"/>
+          <include name="ThreeClasseValidation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Academy.Toma.ThreeClasses -->
+    </classes>
+  </test> <!-- Test05(failed) -->
+</suite> <!-- Failed suite [Suite] -->

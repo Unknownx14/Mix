@@ -1,0 +1,7 @@
+14:12:37.832 [main] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has published the article number 1
+14:12:47.924 [main] INFO  resources.Base - The driver has been initialized and the url is reached
+14:12:52.140 [main] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has successfully logged into the application
+14:12:55.734 [main] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has published the article number 1
+14:12:59.252 [main] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has published the article number 2
+14:13:04.568 [main] INFO  resources.Base - The user with the email - jovan.kovacevic@hotmail.com and the password - glupavipasswordhas successfully logged into the application
+14:13:08.057 [main] INFO  resources.Base - The user with the email - jovan.kovacevic@hotmail.com and the password - glupavipasswordhas published the article number 3

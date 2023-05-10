@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="7" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T15:00:37 CET" name="Suite" finished-at="2022-11-24T15:01:07 CET" duration-ms="29780">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTCPO.loginWrongCredentialsTestCase()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" name="loginWrongCredentialsTestCase" class="Academy.Tests.ErrorValidationsTCPO"/>
+        <method signature="ErrorValidationsTCPO.loginWrongUsernameDisplayedTestCase()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" name="loginWrongUsernameDisplayedTestCase" class="Academy.Tests.ErrorValidationsTCPO"/>
+        <method signature="ErrorValidationsTCPO.loginWrongUsernameDisplayedTestCaseTransformer()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" name="loginWrongUsernameDisplayedTestCaseTransformer" class="Academy.Tests.ErrorValidationsTCPO"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2022-11-24T15:00:37 CET" name="LoginPublishLogout" finished-at="2022-11-24T15:00:37 CET" duration-ms="41">
+    </test> <!-- LoginPublishLogout -->
+    <test started-at="2022-11-24T15:00:37 CET" name="ErrorValidations" finished-at="2022-11-24T15:01:07 CET" duration-ms="29780">
+      <class name="Academy.Tests.ErrorValidationsTCPO">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:37 CET" name="launchApplication" finished-at="2022-11-24T15:00:43 CET" duration-ms="6035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWrongCredentialsTestCase()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:43 CET" name="loginWrongCredentialsTestCase" finished-at="2022-11-24T15:00:45 CET" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongCredentialsTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:45 CET" name="tearDown" finished-at="2022-11-24T15:00:45 CET" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:45 CET" name="launchApplication" finished-at="2022-11-24T15:00:47 CET" duration-ms="2647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginWrongUsernameDisplayedTestCase()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:47 CET" name="loginWrongUsernameDisplayedTestCase" finished-at="2022-11-24T15:00:49 CET" duration-ms="1682" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [JovanK] but found [JovanK]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [JovanK] but found [JovanK]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:2033)
+at org.testng.Assert.assertNotEquals(Assert.java:2055)
+at Academy.Tests.ErrorValidationsTCPO.loginWrongUsernameDisplayedTestCase(ErrorValidationsTCPO.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongUsernameDisplayedTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:49 CET" name="tearDown" finished-at="2022-11-24T15:00:49 CET" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:49 CET" name="launchApplication" finished-at="2022-11-24T15:00:53 CET" duration-ms="3688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWrongUsernameDisplayedTestCase()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:53 CET" name="loginWrongUsernameDisplayedTestCase" finished-at="2022-11-24T15:00:55 CET" duration-ms="1664" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [JovanK] but found [JovanK]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [JovanK] but found [JovanK]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:2033)
+at org.testng.Assert.assertNotEquals(Assert.java:2055)
+at Academy.Tests.ErrorValidationsTCPO.loginWrongUsernameDisplayedTestCase(ErrorValidationsTCPO.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongUsernameDisplayedTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:55 CET" name="tearDown" finished-at="2022-11-24T15:00:55 CET" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:55 CET" name="launchApplication" finished-at="2022-11-24T15:00:58 CET" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginWrongUsernameDisplayedTestCaseTransformer()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:00:58 CET" name="loginWrongUsernameDisplayedTestCaseTransformer" finished-at="2022-11-24T15:01:01 CET" duration-ms="2698" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [JovanK] but found [JovanK]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [JovanK] but found [JovanK]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:2033)
+at org.testng.Assert.assertNotEquals(Assert.java:2055)
+at Academy.Tests.ErrorValidationsTCPO.loginWrongUsernameDisplayedTestCaseTransformer(ErrorValidationsTCPO.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongUsernameDisplayedTestCaseTransformer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:01:01 CET" name="tearDown" finished-at="2022-11-24T15:01:01 CET" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:01:01 CET" name="launchApplication" finished-at="2022-11-24T15:01:04 CET" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWrongUsernameDisplayedTestCaseTransformer()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:01:04 CET" name="loginWrongUsernameDisplayedTestCaseTransformer" finished-at="2022-11-24T15:01:06 CET" duration-ms="2431" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [JovanK] but found [JovanK]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [JovanK] but found [JovanK]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:2033)
+at org.testng.Assert.assertNotEquals(Assert.java:2055)
+at Academy.Tests.ErrorValidationsTCPO.loginWrongUsernameDisplayedTestCaseTransformer(ErrorValidationsTCPO.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongUsernameDisplayedTestCaseTransformer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.Tests.ErrorValidationsTCPO@63798ca7]" started-at="2022-11-24T15:01:06 CET" name="tearDown" finished-at="2022-11-24T15:01:07 CET" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.Tests.ErrorValidationsTCPO -->
+    </test> <!-- ErrorValidations -->
+  </suite> <!-- Suite -->
+</testng-results>

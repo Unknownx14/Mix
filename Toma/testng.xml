@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+
+<listeners>
+<listener class-name="Academy.Toma.Listeners"></listener>
+</listeners>
+
+ <!-- <test thread-count="5" name="Test01">
+    <classes>
+      <class name="Academy.Toma.HomePage"/>
+    </classes>
+  </test>  -->
+  
+<!--    <test thread-count="5" name="Test02">
+    <classes>
+      <class name="Academy.Toma.NewPost3"/>
+    </classes>
+  </test> -->
+  
+ <test thread-count="5" name="Test03">
+    <classes>
+      <class name="Academy.Toma.Something02"/>
+    </classes>
+  </test> 
+  
+    <test thread-count="5" name="Test04">
+    <classes>
+      <class name="Academy.Toma.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test thread-count="5" name="Test05">
+    <classes>
+      <class name="Academy.Toma.ThreeClasses"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Academy.Cucumber.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.159 s <<< FAILURE! - in Academy.Cucumber.TestNGTestRunner
+Academy.Cucumber.TestNGTestRunner.runScenario["Wrong username is displayed", "Validate all the Errors related to the Login"](2)  Time elapsed: 4.508 s  <<< FAILURE!
+java.lang.AssertionError: did not expect [JovanK] but found [JovanK]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failEquals(Assert.java:1417)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+	at org.testng.Assert.assertNotEquals(Assert.java:2033)
+	at org.testng.Assert.assertNotEquals(Assert.java:2055)
+	at Academy.StepDefinitions.StepDefinition.verify_that_the_users_is_not_as_expected(StepDefinition.java:145)
+	at ✽.Verify that the user's JovanK is not as expected(file:///C:/Users/joko2909/SeleniumTraining/Toma14112022/src/test/java/Academy/Cucumber/ErrorValidations.feature:24)
+

@@ -1,0 +1,7 @@
+14:52:44.074 [TestNG-tests-3] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has published the article number 1
+14:52:45.245 [TestNG-tests-2] INFO  resources.Base - The driver has been initialized and the url is reached
+14:52:46.870 [TestNG-tests-2] INFO  resources.Base - The user with the email - jovan.kovacevic@hotmail.com and the password - glupavipasswordhas successfully logged into the application
+14:52:49.531 [TestNG-tests-1] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has published the article number 2
+14:52:50.105 [TestNG-tests-3] INFO  resources.Base - The user with the email - testuser@iptiq.com and the password - test1234has published the article number 2
+14:52:59.601 [TestNG-tests-3] INFO  resources.Base - The user with the email - jovan.kovacevic@hotmail.com and the password - glupavipasswordhas successfully logged into the application
+14:52:59.934 [TestNG-tests-1] INFO  resources.Base - The driver has been initialized and the url is reached
